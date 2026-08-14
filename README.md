@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Java 21](https://img.shields.io/badge/Java-21-orange.svg)](https://openjdk.org/projects/jdk/21/)
 [![Spring Boot 3.5](https://img.shields.io/badge/Spring%20Boot-3.5-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Demo](https://img.shields.io/badge/demo-online-success.svg)](https://gastos.pervian.tech)
 
 Controle de gastos residenciais: cadastro de pessoas, lançamento de receitas e
 despesas e consulta de totais.
@@ -18,6 +19,12 @@ lógica alterada — só o endereço da API virou variável de build. Que ele co
 funcionando é a prova de que o contrato foi preservado, e há [um teste de
 integração](src/test/java/tech/pervian/gastos/ContratoDaApiIntegrationTest.java)
 que trava isso rota por rota.
+
+> **▶ Demo ao vivo: <https://gastos.pervian.tech>**
+> A aplicação rodando, com o mesmo frontend que consumia a versão .NET. A documentação da API fica em [/swagger-ui.html](https://gastos.pervian.tech/swagger-ui.html).
+>
+> Ambiente de demonstração: os dados são reiniciados periodicamente e nada ali
+> deve ser tratado como persistente.
 
 ## Como rodar
 
