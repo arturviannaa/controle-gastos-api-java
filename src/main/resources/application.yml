@@ -13,6 +13,10 @@ spring:
     enabled: true
 
 server:
+  # atras do nginx a aplicacao so sabe que a requisicao veio por HTTPS pelo
+  # X-Forwarded-Proto. Sem isto o redirect da raiz sai apontando para http://
+  # e o navegador faz um salto inseguro antes de voltar para https
+  forward-headers-strategy: framework
   port: ${SERVER_PORT:8092}
 
 # origens do frontend, separadas por virgula
