@@ -1,0 +1,4 @@
+# O frontend veio pronto do projeto anterior e serve apenas de demo desta API.
+# Marcado como vendored para a barra de linguagens refletir o que este
+# repositorio realmente entrega: a API em Java.
+frontend/** linguist-vendored
